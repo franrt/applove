@@ -3,6 +3,10 @@
  * (Aquí pueden ir las clases de tu grid)
  */
 
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 .mb-0 {
     margin-bottom: 0;
 }
