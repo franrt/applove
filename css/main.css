@@ -146,8 +146,8 @@ footer {
 
 /*Modal*/
 
-#images-modal {
-    background-color: rgba(240, 30, 80, 0.85);
+#box-modal {
+    background: rgba(10, 255, 190, 0.85);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -155,37 +155,34 @@ footer {
     left: 0;
 }
 
-#images-modal .modal-body {
-    width: 60%;
-    margin: 0 auto;
+#box-img {
+    width: 50%;
+    margin: 30px auto;
     text-align: center;
-    padding: 100px;
+    border: 20px solid whitesmoke;
 }
 
-#images-modal .modal-body h5,
-#images-modal .modal-body h6 {
-    color: whitesmoke;
+#box-img img {
+    width: 100%;
 }
 
-#images-modal .modal-body h5 {
-    font-size: 2em;
-}
 
-#images-modal .modal-body h6 {
-    font-size: 1em;
-}
+/* agregar icono para cierre */
 
-#images-modal .close {
+
+/*
+#box-modal .close {
     position: absolute;
     top: 20px;
     right: 20px;
     cursor: pointer;
 }
 
-#images-modal .close img {
+#box-modal .close img {
     width: 60px;
 }
 
 .hide {
     display: none;
 }
+¨/

@@ -2,13 +2,12 @@
  * Archivo principal de funcionalidad de JS
  */
 
-(function main() {
+/*(function main() {
     var boxes = Array.from(document.getElementsByClassName("images"));
-    var modal = document.getElementById("images-modal");
+    var modal = document.getElementById("box-modal");
     var bodyModal, close, img;
     boxes.forEach(function(box) {
         box.addEventListener("click", function() {
-            modal.innerHTML = "";
             bodyModal = document.createElement("div");
             bodyModal.classList.add("modal-body");
             bodyModal.innerHTML = box.innerHTML;
@@ -25,4 +24,4 @@
             });
         });
     });
-})();
+})();*/
