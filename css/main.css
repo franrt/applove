@@ -96,7 +96,8 @@ header {
     padding: 70px 7px;
 }
 
-.box-services {
+.imagesbox-services,
+.images {
     display: inline-block;
     width: 30%;
     margin-top: 63px;
@@ -132,4 +133,59 @@ footer {
     height: 554px;
     text-align: center;
     margin-top: 80px;
+}
+
+.images {
+    cursor: pointer;
+}
+
+.images:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/*Modal*/
+
+#images-modal {
+    background-color: rgba(240, 30, 80, 0.85);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#images-modal .modal-body {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+
+#images-modal .modal-body h5,
+#images-modal .modal-body h6 {
+    color: whitesmoke;
+}
+
+#images-modal .modal-body h5 {
+    font-size: 2em;
+}
+
+#images-modal .modal-body h6 {
+    font-size: 1em;
+}
+
+#images-modal .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#images-modal .close img {
+    width: 60px;
+}
+
+.hide {
+    display: none;
 }
