@@ -18,3 +18,14 @@
 .text-uppercase {
     text-transform: uppercase;
 }
+
+
+/* Para diagramar la grilla en #work */
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.img-responsive {
+    width: 100%;
+}

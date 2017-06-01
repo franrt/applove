@@ -114,3 +114,22 @@ footer {
     color: white;
     padding-top: 7px;
 }
+
+#work {
+    background-color: white;
+    text-align: center;
+    padding: 70px 7px;
+}
+
+#work .container {
+    padding: 70px;
+}
+
+#hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+    text-align: center;
+    margin-top: 80px;
+}
